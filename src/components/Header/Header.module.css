@@ -1,0 +1,13 @@
+.header {
+    background-color: #823d43;
+}
+
+.header__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 8%;
+    max-height: 125px;
+    margin: 0 0.75%;
+    border-radius: 5px;
+}
