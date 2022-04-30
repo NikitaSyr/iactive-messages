@@ -19,7 +19,7 @@ export const messagesAPI = {
                     actionName: "MessagesLoad"
                 }
             );
-            return response.data.Message;
+            return response.data.Messages;
         }
         catch (e)  {
             console.log("Вы видите статичную версию приложения. Для просмотра динамической работы с API клонируйте репозиторий");
