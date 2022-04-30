@@ -1,8 +1,9 @@
-import {Action, applyMiddleware, combineReducers, compose, createStore} from "redux";
+import {Action, applyMiddleware, combineReducers, compose} from "redux";
 import messagesReducer from "./messagesReducer";
 import thunkMiddleware, {ThunkAction} from "redux-thunk";
 import {persistStore, persistReducer} from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
+import {legacy_createStore as createStore} from "redux";
 
 let rootReducer = combineReducers({
     messagesPage: messagesReducer,

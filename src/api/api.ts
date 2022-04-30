@@ -10,9 +10,17 @@ const config: AxiosRequestConfig = {
 const instance: AxiosInstance = axios.create(config);
 
 export const messagesAPI = {
-    async getFirstMessages() {
+    async postFirstMessages(): Promise<Array<IMessage>> {
         const response = await instance.post("", {
             messageId: 0,
+            actionName: "MessagesLoad"
+            }
+        );
+        return response.data.Messages;
+    },
+    async postNewMessage(id: string): Promise<Array<IMessage> | undefined> {
+        const response = await instance.post("", {
+                messageId: id,
                 actionName: "MessagesLoad"
             }
         );

@@ -1,0 +1,32 @@
+.author{
+    flex: 1 1 auto;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.author__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.author__text{
+    display: flex;
+    flex-direction: column;
+}
+.author__name{
+    padding-bottom: 3px;
+}
+.author__comment{
+    padding-top: 3px;
+    font-size: 12px;
+    line-height: 10px;
+    font-style: italic;
+}
+.author__star{
+    margin: auto 0;
+    width: 23px;
+    height: 23px;
+}
+
+.author__star button{
+    background-color: #fff;
+}

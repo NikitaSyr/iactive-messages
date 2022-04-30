@@ -1,8 +1,0 @@
-.preloader{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 25% auto auto auto;
-    /*margin: auto;*/
-    background-color: #FFEDED;
-}

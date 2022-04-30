@@ -1,0 +1,13 @@
+.messages__sort{
+    background-color: #fff;
+    padding: 5px;
+    border-bottom: 10px solid #ECECEC;
+    min-width: 100%;
+    flex: 1 1 auto;
+}
+
+.messages__sort button{
+    padding: 0 3px 5px;
+    background-color: #fff;
+    color: #333333;
+}
