@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/iactive-messages/static/css/main.f82c1910.css",
-    "main.js": "/iactive-messages/static/js/main.6487b860.js",
+    "main.js": "/iactive-messages/static/js/main.829ceb20.js",
     "static/js/787.781e4ab5.chunk.js": "/iactive-messages/static/js/787.781e4ab5.chunk.js",
     "static/media/Lato-Regular.ttf": "/iactive-messages/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "index.html": "/iactive-messages/index.html",
     "main.f82c1910.css.map": "/iactive-messages/static/css/main.f82c1910.css.map",
-    "main.6487b860.js.map": "/iactive-messages/static/js/main.6487b860.js.map",
+    "main.829ceb20.js.map": "/iactive-messages/static/js/main.829ceb20.js.map",
     "787.781e4ab5.chunk.js.map": "/iactive-messages/static/js/787.781e4ab5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f82c1910.css",
-    "static/js/main.6487b860.js"
+    "static/js/main.829ceb20.js"
   ]
 }
