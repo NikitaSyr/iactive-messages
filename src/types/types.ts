@@ -14,4 +14,11 @@ export interface IMessage  {
     id: string
     region: string
     senderNumber: string
+    isFavorite: boolean
 }
+
+export interface IState {
+    messagesList: MessageListType
+}
+
+export enum SortDirectionType {asc = "ASC", desc = "DESC"}

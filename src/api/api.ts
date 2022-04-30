@@ -1,4 +1,5 @@
 import axios, {AxiosInstance, AxiosRequestConfig} from "axios";
+import {IMessage} from "../types/types";
 
 const config: AxiosRequestConfig = {
     baseURL: `http://f0665380.xsph.ru/`,

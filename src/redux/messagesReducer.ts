@@ -14,7 +14,7 @@ const initialState = {
     messagesList: []
 }
 
-const messagesReducer = (state = initialState, action: ActionsTypes) => {
+const messagesReducer = (state: IState = initialState, action: ActionsTypes) => {
     switch (action.type) {
         case SET_MESSAGES: {
             return {
